@@ -1,0 +1,46 @@
+🎵 MusiKu_API
+MusiKu_API adalah backend REST API untuk aplikasi MusiKu, sebuah platform pemutar musik yang mendukung playlist, like/unlike lagu, dan otentikasi pengguna.
+
+Dibuat menggunakan ASP.NET Core, Entity Framework Core, dan MySQL sebagai database utama.
+
+🚀 Fitur Utama
+🔐 Register & Login (dengan verifikasi OTP email)
+🎶 Manajemen Lagu (tambah, tampilkan, dll)
+📂 Playlist pribadi dan default
+❤️ Like & Unlike lagu
+🧑‍💼 Autentikasi berbasis JWT
+📄 Swagger UI untuk dokumentasi API
+🛠️ Teknologi
+ASP.NET Core 8
+Entity Framework Core
+MySQL (Pomelo Provider)
+JWT Authentication
+Swagger (Swashbuckle)
+CORS support
+📦 Cara Menjalankan Secara Lokal
+Clone repository
+
+git clone https://github.com/NurAryaWijaya/MusiKu.git
+cd MusiKu/MusiKu_API
+Set konfigurasi database
+
+Jalankan migrasi (jika belum)
+
+Jalankan aplikasi
+
+Akses Swagger di:
+
+Struktur Folder 
+MusiKu_API/ 
+├── Controllers/ 
+├── Models/ 
+├── Services/ 
+├── OTP/ 
+├── Data/ 
+├── Migrations/ 
+├── Program.cs 
+├── appsettings.json 
+└── MusiKu_API.csproj
+
+📬 Kontak Dikembangkan oleh Nur Arya Wijaya 
+Untuk kontribusi, issue, atau pertanyaan — silakan buka Issue
